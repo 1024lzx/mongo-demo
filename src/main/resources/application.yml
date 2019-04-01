@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+      authenticationDatabase: admin
+  datasource:
+    url: jdbc:mysql://localhost:3306/mongodemo?serverTimezone=Asia/Shanghai
+    username: ENC(WllF/XkuZIv2d5GWFy4p4w==)
+    password: ENC(jh3G/vrfMJB6EgI1aAVZHw==)
+jasypt:
+  encryptor:
+    password: lzx
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
